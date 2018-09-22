@@ -14,3 +14,12 @@ And, of courses for my personal blogs.
 
 Hope this site will help you some way, some how. I dont know..
 
+By the way, Its me (in my best form)
+
+![Its Me](/images/me.jpg)
+
+And this...
+this is me in my ... nah, You dont want to see the worst
+
+![Its Me Again](/images/me2.jpg)
+
