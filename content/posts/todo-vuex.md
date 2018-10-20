@@ -1,6 +1,8 @@
 ---
 title: "The making of Todo App using Vuex"
 date: 2018-10-15T21:05:00+09:00
+showDate: true
+tags: ["petproject", "programing", "js", "vuejs", "vuex"]
 draft: false
 ---
 # Its has been a while since my first post
@@ -34,7 +36,8 @@ Here the screenshot of source code
 As you can see above image, imagine we have 10 kinds of `state`. Each kind has 2-3 methods... Okay im quit..
 So what im gonna do next is to make sure the `doom day` is not gonna happen.. by splitting the current `store/index.js` out.
 
-Ref: https://markus.oberlehner.net/blog/how-to-structure-a-complex-vuex-store/
+Ref: http://chibinowa.net/note/vuejs/vue-14.html
+
 - ...(to be continued)
 
 

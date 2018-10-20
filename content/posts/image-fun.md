@@ -1,6 +1,8 @@
 ---
 title: "Image Fun 'project'"
 date: 2018-09-22T15:53:47+09:00
+showDate: true
+tags: ["petproject", "programing", "js", "vuejs"]
 draft: false
 ---
 # This is my first ever post on my blog
