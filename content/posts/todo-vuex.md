@@ -52,7 +52,7 @@ and then move all the code inside store inside it.
 Which looks like this:
 ![](https://i.imgur.com/CixVely.png)
 And the main component with `items` will looked like this
-```javascript
+```js
 computed: {
   items: function() {
     return this.$store.state.todoItem.items;
@@ -83,7 +83,7 @@ Vuex allows us to define "getters" in the store. You can think of them as comput
 So I re-write my code base on this. How would it be?
 
 First, the todoItem.js. Add this getters block
-```javascript
+```js
 getters: {
   itemList: state => {
     return state.items;
@@ -91,7 +91,7 @@ getters: {
 },
 ```
 And then the usage
-```javascript
+```js
 computed: {
   ...mapGetters({
     // map `this.items` with `this.$store.state.getter.itemList`
