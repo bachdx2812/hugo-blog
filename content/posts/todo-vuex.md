@@ -101,3 +101,6 @@ computed: {
 ```
 
 Damn, this looks so much better, right?
+And I think this is the right way to do it. Because till now this app using `static` data, but in real life, we need to get data from API right? So I think `getters` is the right place to do it.
+
+Will comeback and do the server side later. For now I will check out all the vuex documents and see if I could do my app any better.
