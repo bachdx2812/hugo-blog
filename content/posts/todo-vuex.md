@@ -52,7 +52,13 @@ and then move all the code inside store inside it.
 Which looks like this:
 ![](https://i.imgur.com/CixVely.png)
 And the main component with `items` will looked like this
-![](https://i.imgur.com/k2BAWvk.png)
+```javascript
+computed: {
+  items: function() {
+    return this.$store.state.todoItem.items;
+  }
+}
+```
 
 Let's check again to see if it still work!
 ...
@@ -61,3 +67,37 @@ It's work perfectly the same way.OK for now.
 But the code is...smell.Why ? Because let think about when we need to deals with the `filter` datas, you have to deal with it like this all the time? I think I need to figure out the better way to do it.
 
 I'll comeback soon to deal with this.
+
+### Vuex Getters
+[Vuex Getters](https://vuex.vuejs.org/guide/getters.html)
+
+Imagine when you have lots of components, and each one of them would use the filtered list of items.
+With the style I've done, I have to repeat in every single components, which I dont really want to.
+So, How would I avoid this.
+
+The concept of `vuex getters` is created for exact same purpose
+```
+Vuex allows us to define "getters" in the store. You can think of them as computed properties for stores. Like computed properties, a getter's result is cached based on its dependencies, and will only re-evaluate when some of its dependencies have changed.
+```
+
+So I re-write my code base on this. How would it be?
+
+First, the todoItem.js. Add this getters block
+```javascript
+getters: {
+  itemList: state => {
+    return state.items;
+  }
+},
+```
+And then the usage
+```javascript
+computed: {
+  ...mapGetters({
+    // map `this.items` with `this.$store.state.getter.itemList`
+    items: 'itemList'
+  })
+}
+```
+
+Damn, this looks so much better, right?
