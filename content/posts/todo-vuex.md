@@ -52,13 +52,7 @@ and then move all the code inside store inside it.
 Which looks like this:
 ![](https://i.imgur.com/CixVely.png)
 And the main component with `items` will looked like this
-```js
-computed: {
-  items: function() {
-    return this.$store.state.todoItem.items;
-  }
-}
-```
+![](https://i.imgur.com/k2BAWvk.png)
 
 Let's check again to see if it still work!
 ...
@@ -83,22 +77,10 @@ Vuex allows us to define "getters" in the store. You can think of them as comput
 So I re-write my code base on this. How would it be?
 
 First, the todoItem.js. Add this getters block
-```js
-getters: {
-  itemList: state => {
-    return state.items;
-  }
-},
-```
+![](https://i.imgur.com/bnEdoHv.png)
+
 And then the usage
-```js
-computed: {
-  ...mapGetters({
-    // map `this.items` with `this.$store.state.getter.itemList`
-    items: 'itemList'
-  })
-}
-```
+![](https://i.imgur.com/5vyd9mZ.png)
 
 Damn, this looks so much better, right?
 And I think this is the right way to do it. Because till now this app using `static` data, but in real life, we need to get data from API right? So I think `getters` is the right place to do it.
