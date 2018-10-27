@@ -38,6 +38,26 @@ So what im gonna do next is to make sure the `doom day` is not gonna happen.. by
 
 Ref: http://chibinowa.net/note/vuejs/vue-14.html
 
-- ...(to be continued)
+## Vuex Modules (2018-10-27)
+Luckily for me, Vuex actually has a nicely way to deal with my problem
+[Vuex Modules](https://vuex.vuejs.org/guide/modules.html)
+So as the document said
+```
+To help with that, Vuex allows us to divide our store into modules. Each module can contain its own state, mutations, actions, getters, and even nested modules
+```
 
+So first thing I need to do is just split `todo-item` into `store/modules/todoItem.js`
+and then move all the code inside store inside it.
 
+Which looks like this:
+![](https://i.imgur.com/CixVely.png)
+And the main component with `items` will looked like this
+![](https://i.imgur.com/k2BAWvk.png)
+
+Let's check again to see if it still work!
+...
+It's work perfectly the same way.OK for now.
+
+But the code is...smell.Why ? Because let think about when we need to deals with the `filter` datas, you have to deal with it like this all the time? I think I need to figure out the better way to do it.
+
+I'll comeback soon to deal with this.
