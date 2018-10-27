@@ -17,7 +17,6 @@ So I decided to learn [VueX](https://vuex.vuejs.org/)
 And for me, the best way of learning something is to build something else using things that you want to learn.
 So, I build a simple todo-app with VueJs and Vuex.Hooray...
 
-I've put all the source code [todo-vuex](https://github.com/bachdx2812/todo-vuex)
 
 ## Init (2018-10-15)
 So I built a very simple app with VueJs DONE
@@ -86,3 +85,9 @@ Damn, this looks so much better, right?
 And I think this is the right way to do it. Because till now this app using `static` data, but in real life, we need to get data from API right? So I think `getters` is the right place to do it.
 
 Will comeback and do the server side later. For now I will check out all the vuex documents and see if I could do my app any better.
+
+### Better way of writing store modules
+Ref: https://github.com/vuejs/vuex/blob/dev/examples/shopping-cart/store/modules/cart.js
+
+I've put all the source code [todo-vuex](https://github.com/bachdx2812/todo-vuex)
+Let finish this here and do something more interesting.
