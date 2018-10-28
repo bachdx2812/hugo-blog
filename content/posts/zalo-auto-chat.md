@@ -41,6 +41,7 @@ Maybe I should do something else meantime.
 Updated: 4pm: My mum clicked on the app request link I sent here before but nothing happened. I tried again but still doesnt work.
 Maybe zalo api is not really good..
 I will skip this.
+By the way I still keeping the source code here just in case: https://github.com/bachdx2812/zalo-api
 
 ## The second function (2018-10-28)
 ### The purpose
