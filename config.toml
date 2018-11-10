@@ -2,6 +2,8 @@ baseURL = "https://bachdx2812.github.io"
 languageCode = "en-us"
 title = "Bachdx's"
 theme = "sam"
+pygmentsStyle = "monokai"
+pygmentsCodefences = true
 
 [[params.mainMenu]]
     link = "/gallery"
