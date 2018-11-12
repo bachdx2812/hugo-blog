@@ -29,7 +29,7 @@ def shopify_update_available?
 end
 ```
 
-```bash:rails c
+```bash
 Shipping.shipped.last.shopify_update_available?
 ```
 
