@@ -143,6 +143,8 @@ export default {
 </style>
 ```
 
+style source code: https://github.com/bachdx2812/funbot/blob/master/client/src/assets/style/bot.css
+
 Actually, I did make videos for this bot development guide.
 Check it out :
 
