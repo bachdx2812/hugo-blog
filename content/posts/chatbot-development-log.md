@@ -143,3 +143,10 @@ export default {
 </style>
 ```
 
+Actually, I did make videos for this bot development guide.
+Check it out :
+
+[Youtube](https://www.youtube.com/playlist?list=PL84pOq5KgPxGbbsHxay6RI6UTtSgigDbe)
+
+From now on I will make more programming guide, blog on youtube.
+Much better than write all out like this rite :))
