@@ -8,6 +8,12 @@ draft: false
 This is actually gonna be the presentation of my 勉強会 for my colleagues
 Source code: https://github.com/bachdx2812/support-bot
 
+# Demo:
+
+Client: https://client-zafznldfat.now.sh/
+
+Server: https://server-pjvdsjpwme.now.sh/
+
 # The Goal:
 For very long time (still happen today), the `user` while surfing the internet sometime has to fill a lot of `form` with tons of information
 which kind of boring.
