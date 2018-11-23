@@ -11,7 +11,11 @@ pygmentsCodefences = true
 
 [[params.mainMenu]]
     link = "/posts"
-    text = "Stuff"
+    text = "Coding"
+
+[[params.mainMenu]]
+    link = "/life"
+    text = "Life"
 
 [[params.mainMenu]]
     link = "/about"
